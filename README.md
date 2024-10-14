@@ -37,8 +37,18 @@ Woven's joint inference of mass, stiffness, and wind strength predicts a differe
      <br><br>
 <p align="center">
     <img width=50% src="woven_pred.png">
+    
+We predict and confirm that humans more accurately match mass in the trials that exclude the wind scenario, relative
+to those that include the wind scenario. In particular, the effect of the ground truth mass difference (quantified using the
+regression model on top, where stiffDiff= |s<sub>Match</sub> −s<sub>Target</sub>|−|s<sub>Distractor</sub> −s<sub>Target</sub>| and massDiff = |m<sub>Match</sub> −m<sub>Distractor</sub> |)
+was significantly greater in the wind-excluding trials than in the wind-including trials. Woven showed qualitatively identical
+patterns of perceptual constancy as humans, but this effect was reversed for the DNN. 
+<p align="center">
+    <img width=40% src="perceptual_mass.png">
 
-
+Using a similar regression model (where stiffDiff= |s<sub>Match</sub> − s<sub>Distractor</sub> | and massDiff= |m<sub>Match</sub> − m<sub>Target</sub>| − |m<sub>Distractor</sub> − m<sub>Target</sub>|), we observed that humans and all models had successful perceptual constancy in their stiffness judgments. 
+<p align="center">
+    <img width=40% src="perceptual_stiff.png">
 
 
 
