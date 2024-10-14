@@ -11,8 +11,8 @@ Participants were instructed to choose the test videos that corresponded to the 
 ### Results
 #### 1. When WOVEN and DNN models are calibrated to match the average accuracy of human participants, WOVEN explains a greater portion of the variance in human behavioral performance.
 <p align="center">
-    <img width=90% src="stiffness_all.png">
-<p align="center">Dense motion trajectory features</strong></p>
+    <img width=60% src="stiffness_all.png">
+<p align="center"></strong></p>
 
 
 
