@@ -30,5 +30,18 @@ The same procedure as the stiffness matching task, but participants were asked t
     <img width=100% src="mass_detail.png">
 <p align="center"></strong></p>
 
+## Evaluation 3: WOVEN predicts novel effects of mass on mass estimation.
+Woven's joint inference of mass, stiffness, and wind strength predicts a differential effect of wind strength on physical properties. Specifically, it suggests that stiffness estimation is unaffected by wind strength, whereas mass estimation is influenced by it. When Woven infers stronger winds, it tends to perceive the cloth as lighter.
+<p align="center">
+    <img width=60% src="perceptual_const.png">
+     <br><br>
+<p align="center">
+    <img width=50% src="woven_pred.png">
+
+
+
+
+
+
 
 
